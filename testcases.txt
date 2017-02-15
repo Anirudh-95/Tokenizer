@@ -1,0 +1,66 @@
+Anirudh Balachandran
+RUID: 159002515
+Testcases : Computer Architecture-1
+
+Input-->Output
+
+0-->   zero    0
+0x-->  zero 0
+
+1-->   Decimal 1
+123--> Decimal 123
+1. --> Mal 1
+
+0501--> Octal  0501
+0700--> octal 0700
+0501A --> Octal 0501
+0234345--> octal 0234345
+
+0x123abcdef--> Hexadecimal 0x123abcdef
+0x123A--> Hexadecimal 0x123A
+1x34--> Mal 1x34
+0xabc--> Hexadecimal 0xabc
+0xabcz-->Error in Hexadecimal form: [0x7a]
+         Hexadecimal	0xabc
+
+0.1-->     Float 0.1
+0.34e10 -->Float 0.34e10
+0.34e-10-->Float 0.34e-10
+1.54e12 -->Float 1.54e12
+
+0700 1234 3.14159e-10 --> octal	     0700
+			  Decimal    1234
+			  Float      3.14159e-10
+
+0x1234abcdefgh --> Error in Hexadecimal form: [0x67]			
+		   Hexadecimal	0x1234abcdef
+		   Error in Hexadecimal form: [0x68]
+		   
+abxd--> Error: String doesnt start with a digit	
+
+123 456 789--> Decimal 123
+	       Decimal 456
+	       Decimal 789
+
+123 0x345 0790--> decimal 123
+		  Hexadecimal 0x345
+		  mal 0790
+
+154e43.9--> Mal 154e43.9
+
+453 23.4 0765 0x4c-->Decimal	453
+		     Float	23.4
+		     octal	0765
+                     Hexadecimal  0x4c
+
+143.6z45-->Error in Hexadecimal form: [0x7a]
+           Float	143.6
+	   Decimal	45
+
+
+
+
+
+
+
+
